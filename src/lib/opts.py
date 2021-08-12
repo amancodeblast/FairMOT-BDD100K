@@ -256,7 +256,7 @@ class opts(object):
     from datasets.dataset_factory import get_dataset
     opt = self.parse(args)
     default_dataset_info = {
-      'mot': {'default_resolution': [608, 1088], 'num_classes': 11,
+      'mot': {'default_resolution': [608, 1088], 'num_classes': 8,
                 # 'mean': [0.408, 0.447, 0.470], 'std': [0.289, 0.274, 0.278],
                 'mean': None, 'std': None,
                 'dataset': 'jde', 'nID': 112820},

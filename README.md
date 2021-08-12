@@ -36,7 +36,7 @@ You can then train detector on bdd dataset:
 cd src
 CUDA_VISIBLE_DEVICES=0,1 python -W ignore train_det.py det --exp_id bdd100k_det --gpus '0,1' --print_iter 100 --batch_size 16 --load_model '../models/ctdet_coco_dla_2x.pth' --data_cfg './lib/cfg/bdd100k_det.json'
 ```
-## Traing Tracker
+## Traning Tracker
 - Change '--data_cfg' in the opts, change '--data_dir' in the opts to '/save_path/data/MOT' (same as in Data Preparation)
 ```
 sh experiments/bdd100k.sh
